@@ -20,7 +20,7 @@
   </head>
   <body id="home">
     <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary shadow-sm">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow-sm">
       <div class="container">
         <a class="navbar-brand" href="#">Aldi Khoirul Abdillah</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,11 +49,11 @@
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
       <img src="img/IMG_0128++.jpg" alt="Aldi Khoirul" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Aldi Khoirul Abdillah</h1>
-      <p class="lead"></p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <h1 class="display-4 fw-bold text-white">Aldi Khoirul Abdillah</h1>
+      <p class="lead fw-bold text-white"></p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"> -->
         <path
-          fill="#ffff"
+          fill="#fff"
           fill-opacity="1"
           d="M0,256L34.3,240C68.6,224,137,192,206,186.7C274.3,181,343,203,411,186.7C480,171,549,117,617,106.7C685.7,96,754,128,823,160C891.4,192,960,224,1029,202.7C1097.1,181,1166,107,1234,74.7C1302.9,43,1371,53,1406,58.7L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
         ></path>
@@ -286,7 +286,7 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#0d6efd"
+          fill="#31aabd"
           fill-opacity="1"
           d="M0,160L48,160C96,160,192,160,288,176C384,192,480,224,576,229.3C672,235,768,213,864,186.7C960,160,1056,128,1152,128C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
@@ -295,7 +295,7 @@
     <!-- Akhir Contact -->
 
     <!-- Footer -->
-    <footer class="bg-primary text-white text-center pb-5">
+    <footer class="text-white text-center pb-5">
       <p>Created with <i class="bi bi-balloon-heart-fill text-danger"></i> by <a href="https://www.instagram.com/aldikhrl_/" class="text-white fw-bold" target="_blank">Aldi Khoirul Abdillah</a></p>
     </footer>
     <!-- Akhir Footer -->
@@ -323,7 +323,7 @@
     <script>
       gsap.registerPlugin(TextPlugin);
       gsap.to('.lead', {duration: 1.5, delay: 1.5, text: 'Web Developer'});
-      // gsap.from('.jumbotron img', {duration: 1, rotateY:360, opacity: 0});
+      gsap.from('.jumbotron img', {duration: 1, y:-50, opacity: 0});
       gsap.from('.navbar', {duration: 1.5, y:'-100%', opacity: 0, ease: 'bounce'});
       gsap.from('.display-4', {duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back'});
     </script>

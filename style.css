@@ -1,6 +1,10 @@
+.navbar {
+  background-color: #3f3f3f;
+}
+
 .jumbotron {
   padding-top: 6rem;
-  background-color: #e2edff;
+  background-color: #31aabd;
 }
 
 #projects {
@@ -17,6 +21,10 @@ section {
 
 #gallery .row > * {
   padding: 0;
+}
+
+footer {
+  background-color: #31aabd;
 }
 
 /* My Keyboard section */
